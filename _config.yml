@@ -1,0 +1,93 @@
+# Jekyll Configuration for BSS Agent Documentation
+title: BSS Agent Documentation
+description: Comprehensive AI Agent Development Framework built with LangChain and LangGraph
+url: "https://bssagent.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "page"
+      search: true
+      toc: true
+      toc_heading: "Contents"
+      toc_min_headers: 2
+      toc_max_headers: 3
+
+# Plugins
+plugins:
+  - jekyll-relative-links
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Just the Docs theme configuration
+just_the_docs:
+  # Color scheme supports "light" (default) and "dark"
+  color_scheme: light
+  
+  # Enable dark mode toggle
+  dark_mode_toggle: true
+  
+  # Search
+  search_enabled: true
+  search:
+    # Split pages into sections that can be searched individually
+    heading_level: 2
+    previews: 3
+    preview_words_before: 5
+    preview_words_after: 10
+    tokenizer_separator: /[\s/\-]+/
+    rel_url: true
+    button: true
+  
+  # Navigation
+  nav_external_links:
+    - icon: github
+      title: GitHub
+      url: https://github.com/bssagent/bssagent
+  
+  # Footer
+  footer_content: "Copyright &copy; 2024 BSS Agent Team. Distributed by <a href=\"https://github.com/bssagent/bssagent\">BSS Agent</a>."
+  
+  # Back to top button
+  back_to_top: true
+  back_to_top_text: "Back to top"
+  
+  # Callouts
+  callouts:
+    note:
+      icon: note
+      color: blue
+    warning:
+      icon: warning
+      color: yellow
+    tip:
+      icon: tip
+      color: green
+    important:
+      icon: important
+      color: red
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/ 

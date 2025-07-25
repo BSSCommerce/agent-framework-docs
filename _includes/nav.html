@@ -1,0 +1,24 @@
+{% assign pages_list = site.pages | sort: "order" %}
+{% assign docs_list = site.docs | sort: "order" %}
+
+<ul class="nav-list">
+  {% for page in pages_list %}
+    {% if page.title and page.nav %}
+      <li class="nav-list-item">
+        <a href="{{ page.url | relative_url }}" class="nav-list-link{% if page.url == page.url %} active{% endif %}">
+          {{ page.title }}
+        </a>
+      </li>
+    {% endif %}
+  {% endfor %}
+  
+  {% for doc in docs_list %}
+    {% if doc.title %}
+      <li class="nav-list-item">
+        <a href="{{ doc.url | relative_url }}" class="nav-list-link{% if doc.url == page.url %} active{% endif %}">
+          {{ doc.title }}
+        </a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul> 
