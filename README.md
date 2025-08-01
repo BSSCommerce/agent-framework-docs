@@ -3,50 +3,44 @@
 ## Table of Contents
 
 ### 1. Introduction
-- [Overview](docs/1-introduction/README.md)
+- [Overview](docs/1-introduction.md)
 
 ### 2. Installation
-- [Installation Guide](docs/2-installation/README.md)
+- [Installation Guide](docs/2-installation.md)
 
 ### 3. Getting Started
-- [Getting Started Guide](docs/3-getting-started/)
+- [Getting Started Guide](docs/3-getting-started.md)
 
 ### 4. BSS Agent Framework
 
 #### 4.1 Base Agent
-- [Base Agent Documentation](docs/4-bss-agent-framework/base-agent/)
+- [Base Agent Documentation](docs/4-bss-agent-framework/4-1-base-agent.md)
 
 #### 4.2 User Session Management
-- [User Session Management](docs/4-bss-agent-framework/user-session-management/)
+- [User Session Management](docs/4-bss-agent-framework/4-2-user-session-management.md)
 
 #### 4.3 Database Management
-- [Database Management](docs/4-bss-agent-framework/database-management/)
+- [Database Management](docs/4-bss-agent-framework/4-3-database-management.md)
 
 #### 4.4 Advanced Agent
-- [Advanced Agent Features](docs/4-bss-agent-framework/advanced-agent/)
+- [Advanced Agent Features](docs/4-bss-agent-framework/4-4-advanced-agent.md)
 
 #### 4.5 Server API
-- [Simple Server API Setup](docs/4-bss-agent-framework/server-api/simple-server-api-setup/)
-- [Support Agent Streaming Mode](docs/4-bss-agent-framework/server-api/support-agent-streaming-mode/)
-- [Integration with Client](docs/4-bss-agent-framework/server-api/integration-with-client/)
-- [Authentication](docs/4-bss-agent-framework/server-api/authentication/)
+- [Server API Documentation](docs/4-bss-agent-framework/4-5-server-api.md)
 
 #### 4.6 RAG Integration
-- [Simple Example](docs/4-bss-agent-framework/rag-integration/simple-example/)
-- [Extract Data from Files](docs/4-bss-agent-framework/rag-integration/extract-data-from-files/)
-- [Extract Data from URL](docs/4-bss-agent-framework/rag-integration/extract-data-from-url/)
-- [Extract Data from Mixed Sources](docs/4-bss-agent-framework/rag-integration/extract-data-from-mixed-sources/)
-- [Advanced RAG Pipeline](docs/4-bss-agent-framework/rag-integration/advanced-rag-pipeline/)
-- [Custom RAG Pipeline](docs/4-bss-agent-framework/rag-integration/custom-rag-pipeline/)
+- [RAG Integration Guide](docs/4-bss-agent-framework/4-6-rag-integration.md)
 
 #### 4.7 Security
-- [Rate Limit Setup](docs/4-bss-agent-framework/security/rate-limit-setup/)
-- [Input Sanitizer](docs/4-bss-agent-framework/security/input-sanitizer/)
-- [Data Privacy](docs/4-bss-agent-framework/security/data-privacy/)
+- [Security Documentation](docs/4-bss-agent-framework/4-7-security.md)
+
+#### 4.8 Authentication
+- [Authentication Guide](docs/4-bss-agent-framework/4-8-authentication.md)
 
 ### 5. Knowledge Base
 - [Knowledge Base Overview](docs/5-knowledge-base/README.md)
-- [LLM Models](docs/5-knowledge-base/llm-models/)
-- [Agent Development Framework](docs/5-knowledge-base/agent-development-framework/)
-- [RAG Techniques](docs/5-knowledge-base/rag-techniques/)
-- [AI App UX](docs/5-knowledge-base/ai-app-ux/)
+- [Agent Development Framework](docs/5-knowledge-base/5-1-agent-development-framework.md)
+- [LLM Models](docs/5-knowledge-base/5_2_llm_models.md)
+- [RAG Techniques](docs/5-knowledge-base/5_3_rag_techniques.md)
+- [AI App UX](docs/5-knowledge-base/5_4_ai_app_ux.md)
+- [Awesome MCP](docs/5-knowledge-base/5-5-wesome-mcp.md)
