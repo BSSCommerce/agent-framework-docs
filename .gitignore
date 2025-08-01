@@ -1,1 +1,14 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+
+# Distribution / packaging
+build/
+dist/
+eggs/
+*.egg-info/
+MANIFEST
+
+# Environments
 .env
+.venv
