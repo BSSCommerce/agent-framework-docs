@@ -1,4 +1,3 @@
-Of course. Here is a technical document outlining the main features, comparison, and use cases for LangGraph, Google ADK, and OpenAI's Agent SDK.
 
 # **Agent Development Frameworks: A Technical Overview**
 
