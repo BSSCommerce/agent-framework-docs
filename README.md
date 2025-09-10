@@ -10,14 +10,14 @@
 
 
 ### 4. BSS Agent Framework
-#### 4.1 [Base Agent](docs/4-bss-agent-framework/4-1-base-agent.md)
-#### 4.2 [User Session Management](docs/4-bss-agent-framework/4-2-user-session-management.md)
-#### 4.3 [Database Management](docs/4-bss-agent-framework/4-3-database-management.md)
-#### 4.4 [Advanced Agent Features](docs/4-bss-agent-framework/4-4-advanced-agent.md)
-#### 4.5 [Server API](docs/4-bss-agent-framework/4-5-server-api.md)
-#### 4.6 [RAG Integration Guide](docs/4-bss-agent-framework/4-6-rag-integration.md)
-#### 4.7 [Security Documentation](docs/4-bss-agent-framework/4-7-security.md)
-#### 4.8 [Authentication](docs/4-bss-agent-framework/4-8-authentication.md)
+- [Base Agent](docs/4-bss-agent-framework/4-1-base-agent.md)
+- [User Session Management](docs/4-bss-agent-framework/4-2-user-session-management.md)
+- [Database Management](docs/4-bss-agent-framework/4-3-database-management.md)
+- [Advanced Agent Features](docs/4-bss-agent-framework/4-4-advanced-agent.md)
+- [Server API](docs/4-bss-agent-framework/4-5-server-api.md)
+- [RAG Integration Guide](docs/4-bss-agent-framework/4-6-rag-integration.md)
+- [Security Documentation](docs/4-bss-agent-framework/4-7-security.md)
+- [Authentication](docs/4-bss-agent-framework/4-8-authentication.md)
 ### 5. Knowledge Base
 - [Agent Development Framework](docs/5-knowledge-base/5-1-agent-development-framework.md)
 - [LLM Models](docs/5-knowledge-base/5-2-llm-models.md)
